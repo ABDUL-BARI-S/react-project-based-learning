@@ -1,16 +1,72 @@
-# React + Vite
+# 🧮 Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a simple Counter App I built using React.js while learning the basics of React.
 
-Currently, two official plugins are available:
+I built this project to understand how state changes and user interactions work in React.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🚀 Features
 
-## React Compiler
+* Increase the counter
+* Decrease the counter
+* Reset the counter
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Technologies Used
 
-## Expanding the ESLint configuration
+* React.js
+* JavaScript
+* HTML
+* CSS
+* Vite
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📚 What I Learned
+
+While building this project, I practiced:
+
+* `useState`
+* State management
+* Event handling
+* Updating state
+* React components
+* Handling button clicks
+
+## ▶️ How to Run
+
+Clone the repository:
+
+```bash
+git clone YOUR_GITHUB_REPOSITORY_LINK
+```
+
+Go to the project folder:
+
+```bash
+cd Counter_App
+```
+
+Install the dependencies:
+
+```bash
+npm install
+```
+
+Start the development server:
+
+```bash
+npm run dev
+```
+
+Then open the local URL shown in the terminal.
+
+## 🎯 Purpose
+
+This is a beginner React project that I built to practice the basics of React and understand how state works.
+
+I will continue building more projects as I learn new React concepts.
+
+## 👨‍💻 Author
+
+**Abdul Bari**
+
+GitHub: https://github.com/ABDUL-BARI-S
+
+LinkedIn: https://www.linkedin.com/in/abdul-bari-152428252/
