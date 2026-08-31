@@ -1,0 +1,117 @@
+.search-container {
+  width: 90%;
+  max-width: 700px;
+  margin: 60px auto;
+  padding: 35px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 18px;
+  box-shadow: 0 10px 30px rgba(79, 70, 229, 0.12);
+}
+
+.search-container h1 {
+  margin-bottom: 25px;
+  font-size: 32px;
+  color: #1e1b4b;
+}
+
+/* Search Input */
+.search-container input {
+  width: 85%;
+  max-width: 550px;
+  padding: 14px 18px;
+  font-size: 18px;
+  color: #1f2937;
+  background: #f8f7ff;
+  border: 2px solid #ddd6fe;
+  border-radius: 10px;
+  outline: none;
+  box-sizing: border-box;
+  transition: all 0.3s ease;
+}
+
+.search-container input::placeholder {
+  color: #9ca3af;
+}
+
+.search-container input:focus {
+  border-color: #7c3aed;
+  background: #ffffff;
+  box-shadow: 0 0 0 4px rgba(124, 58, 237, 0.12);
+}
+
+/* Product List */
+.search-container ul {
+  list-style: none;
+  padding: 0;
+  margin: 25px auto 0;
+  width: 85%;
+  max-width: 550px;
+}
+
+/* Product Item */
+.search-container li {
+  padding: 15px 18px;
+  margin-bottom: 10px;
+  text-align: left;
+  font-size: 17px;
+  font-weight: 500;
+  color: #312e81;
+  background: #f5f3ff;
+  border: 1px solid #ddd6fe;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+.search-container li:hover {
+  color: #ffffff;
+  background: #7c3aed;
+  border-color: #7c3aed;
+  transform: translateX(5px);
+  box-shadow: 0 5px 12px rgba(124, 58, 237, 0.2);
+}
+
+/* Tablet */
+@media (max-width: 768px) {
+  .search-container {
+    width: 85%;
+    padding: 28px 20px;
+    margin: 40px auto;
+  }
+
+  .search-container h1 {
+    font-size: 28px;
+  }
+
+  .search-container input,
+  .search-container ul {
+    width: 90%;
+  }
+}
+
+/* Mobile */
+@media (max-width: 480px) {
+  .search-container {
+    width: 88%;
+    padding: 25px 15px;
+    margin: 25px auto;
+  }
+
+  .search-container h1 {
+    font-size: 23px;
+  }
+
+  .search-container input {
+    width: 100%;
+    font-size: 16px;
+  }
+
+  .search-container ul {
+    width: 100%;
+  }
+
+  .search-container li {
+    font-size: 15px;
+  }
+}
