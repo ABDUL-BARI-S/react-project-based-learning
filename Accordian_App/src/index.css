@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+/* Main container */
+.container {
+  width: 90%;
+  max-width: 700px;
+  margin: 60px auto;
+}
+
+/* Heading */
+.container h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 32px;
+  color: #222;
+}
+
+/* Each question */
+.container > div {
+  margin-bottom: 12px;
+}
+
+/* Question header */
+.child {
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 18px 20px;
+  cursor: pointer;
+  transition: 0.2s ease;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.08);
+}
+
+.child:hover {
+  background: #f8f9fa;
+}
+
+/* Question text */
+.child p {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 17px;
+  font-weight: 600;
+}
+
+/* Plus / Minus */
+.child span {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* Answer */
+.container > div > p:last-child {
+  background: white;
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 18px 20px;
+  margin-top: -8px;
+  border-radius: 0 0 8px 8px;
+  color: #555;
+  line-height: 1.6;
+  font-size: 15px;
+}
+.answer {
+  background: white;
+  border: 1px solid #ddd;
+  border-top: none;
+  padding: 18px 20px;
+  margin-top: -8px;
+  border-radius: 0 0 8px 8px;
+  color: #555;
+  line-height: 1.6;
+  font-size: 15px;
+}
