@@ -1,16 +1,116 @@
-# React + Vite
+# 🔎 Search Filter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple and responsive **Product Search & Filter App** built with React.js.
+This project allows users to search for products dynamically as they type.
 
-Currently, two official plugins are available:
+## 🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+* 🔍 Search products by name
+* ⚡ Real-time filtering while typing
+* 📱 Responsive design for mobile, tablet, and desktop
+* 🎨 Clean and modern UI
+* 🧩 Reusable React components
+* 📦 Product data stored separately for easy management
 
-## React Compiler
+## 🛠️ Technologies Used
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+* **React.js**
+* **JavaScript (ES6+)**
+* **HTML5**
+* **CSS3**
+* **Vite**
+* **Git & GitHub**
 
-## Expanding the ESLint configuration
+## 📂 Project Structure
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+```text
+Search_Filter_App/
+│
+├── public/
+│
+├── src/
+│   ├── Components/
+│   │   └── Search.jsx
+│   │
+│   ├── assets/
+│   │
+│   ├── data/
+│   │   └── products.js
+│   │
+│   ├── App.jsx
+│   ├── index.css
+│   └── main.jsx
+│
+├── .gitignore
+├── index.html
+├── package.json
+├── vite.config.js
+└── README.md
+```
+
+## ⚙️ How to Run Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ABDUL-BARI-S/react-project-based-learning.git
+```
+
+### 2. Navigate to the project
+
+```bash
+cd react-project-based-learning/Search_Filter_App
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the development server
+
+```bash
+npm run dev
+```
+
+Open the local URL shown in the terminal to view the application.
+
+## 🧠 What I Learned
+
+While building this project, I practiced:
+
+* Using `useState()` in React
+* Handling input events with `onChange`
+* Creating controlled components
+* Filtering arrays using `.filter()`
+* Using `.map()` to render dynamic lists
+* Working with props and components
+* Organizing data separately from components
+* Applying responsive CSS
+
+## 📸 Preview
+
+Add a screenshot of your application here:
+
+```text
+![Search Filter App Screenshot](./src/assets/search-filter-preview.png)
+```
+
+## 🔮 Future Improvements
+
+Some features I plan to add:
+
+* Product categories
+* Price filtering
+* Sorting products
+* Product cards with images
+* "No products found" message
+* Clear search button
+* Product details page
+
+## 👨‍💻 Author
+
+**Abdul Bari**
+
+This project is part of my React.js learning journey, where I'm building small projects to strengthen my frontend development skills.
