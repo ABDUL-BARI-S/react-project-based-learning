@@ -1,17 +1,17 @@
-# 📝 Todo List App
+# 🔤 Character Counter App
 
-This is my first Todo List project built using React.js.
+This is a simple Character Counter app I built using React.js.
 
-I built this project to practice the React concepts I have learned so far and to understand how state and user interactions work in React.
+I built this project to practice React state, controlled inputs, and handling user input.
 
 ## 🚀 Features
 
-* Add a new todo
-* Display todos
-* Edit a todo
-* Delete a todo
-* Prevent adding empty todos
-* Show a message when there are no todos
+* Count the number of characters
+* Count the number of words
+* Show remaining characters
+* Set a maximum limit of 50 characters
+* Show "Limit reached" when the limit is reached
+* Clear the text using the Clear Text button
 
 ## 🛠️ Technologies Used
 
@@ -26,27 +26,26 @@ I built this project to practice the React concepts I have learned so far and to
 While building this project, I practiced:
 
 * `useState`
-* Props
-* Controlled inputs
-* Event handling
+* Controlled components
+* Handling input events
+* Working with strings
+* `trim()`
+* `split()`
 * Conditional rendering
-* `map()`
-* `filter()`
-* Working with arrays and objects
-* Updating state in React
+* Using `maxLength` in textarea
 
 ## ▶️ How to Run
 
-First, clone this repository:
+Clone the repository:
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_LINK
+git clone https://github.com/ABDUL-BARI-S/react-project-based-learning/tree/main/CharCounter_App
 ```
 
 Go to the project folder:
 
 ```bash
-cd Todo_app
+cd CharCounter
 ```
 
 Install the dependencies:
@@ -65,12 +64,14 @@ Then open the local URL shown in the terminal.
 
 ## 🎯 Purpose
 
-This is a learning project that I built while learning React.js.
+This is a small learning project that I built while practicing React.js.
 
-I will continue improving it and adding more features as I learn more about React.
+The main goal was to understand how React can be used to take user input, update the state, and display the result dynamically.
 
 ## 👨‍💻 Author
 
 **Abdul Bari**
 
 GitHub: https://github.com/ABDUL-BARI-S
+
+LinkedIn: https://www.linkedin.com/in/abdul-bari-152428252/
