@@ -1,10 +1,10 @@
 import React from 'react'
-import Todo from './Components/Todo'
+import CharCounter from './Components/CharCounter';
 
 function App() {
   return (
     <div>
-      <Todo/>
+      <CharCounter />
     </div>
   )
 }

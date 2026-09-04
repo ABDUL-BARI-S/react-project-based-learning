@@ -55,7 +55,9 @@ function Todo() {
             setTask(e.target.value)
           }}
         />
-        <button onClick={addTodo} >Add</button>
+        <button onClick={addTodo} 
+        
+        >Add</button>
          </> :
          <>
          <input type='text'

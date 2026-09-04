@@ -14,7 +14,7 @@ function Search() {
 
   return (
     <div className='search-container'>  
-      <h1>Search for Products...</h1>
+      <h1>Search for Products</h1>
           <input type="text"
             placeholder='Search here'
             style={{
