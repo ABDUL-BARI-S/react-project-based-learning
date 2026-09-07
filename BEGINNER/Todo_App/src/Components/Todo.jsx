@@ -54,6 +54,13 @@ function Todo() {
           onChange={(e) => {
             setTask(e.target.value)
           }}
+          onKeyDown={
+            ((e) => {
+              if(e.key === "Enter"){
+                addTodo();
+              }
+            })
+          }
         />
         <button onClick={addTodo} 
         
