@@ -2,6 +2,7 @@ import React from 'react'
 import { useState } from 'react';
 
 function CharCounter() {
+
     const [text, setText] = useState("");
     const maxLength = 50;
     const str = "Limit reached";
@@ -11,7 +12,7 @@ function CharCounter() {
     <div className='container'>
       <h1>Char Counter</h1>
     <textarea
-      placeholder='Type something here'
+      placeholder='Type something here...'
       value={text}
       onChange={(e) => {
         setText(e.target.value)

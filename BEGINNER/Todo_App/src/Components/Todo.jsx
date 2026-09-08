@@ -14,7 +14,7 @@ function Todo() {
    // ADDING A TODO
   const addTodo = () => {
     if (task.trim() === "") return;
-    setTodos([...todos, task.trim()]);
+    setTodos([...todos, task.trim()]); 
     setTask("");
     }
     // DELETING A TODO
@@ -26,19 +26,21 @@ function Todo() {
       setEditIndex(index);
       setEditTask(todos[index]);
     }
-    const saveTodo = () => {
-      if(editTask.trim() === "") return;
-      setTodos(todos.map((todo, index) => {
+   
 
-        if(index === editIndex){
+    const saveTodo = () => {
+    if(editTask.trim() === "") return;
+    setTodos(todos.map((todo,index) => {
+     
+        if (index === editIndex) {
           return editTask.trim();
         }
         return todo;
         
-      }))
-      setEditIndex(null);
-      setEditTask("");
-    }
+    }))
+    setEditIndex(null);
+    setEditTask("");
+   }
 
 
   return (

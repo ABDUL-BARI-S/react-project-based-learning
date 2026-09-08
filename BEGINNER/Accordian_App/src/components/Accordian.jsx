@@ -3,7 +3,7 @@ import { useState } from 'react';
 
 function Accordion({questions}) {
 
-    const [showindex, setShowIndex] = useState();
+    const [showindex, setShowIndex] = useState(null);
     const handleClick = (index) => {
         
         if(index === showindex){
